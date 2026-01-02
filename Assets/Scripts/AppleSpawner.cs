@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class AppleSpawner : MonoBehaviour
 {
@@ -52,5 +53,10 @@ public class AppleSpawner : MonoBehaviour
 		}
 		
 		Debug.Log($"AppleSpawner::SpawnApples() : {sum}");
+	}
+	public void DestroyApple(Apple removeItem)
+	{
+		appleList.Remove(removeItem);
+		Destroy(removeItem.gameObject);
 	}
 }
