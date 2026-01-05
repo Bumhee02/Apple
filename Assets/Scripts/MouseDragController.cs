@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 public class MouseDragController : MonoBehaviour
 {
 	[SerializeField]
-	//private	GameController		gameController;
-	//[SerializeField]
+	private	GameController		gameController;
+	[SerializeField]
 	private	AppleSpawner		appleSpawner;
 	[SerializeField]
 	private	RectTransform		dragRectangle;
@@ -28,7 +28,7 @@ public class MouseDragController : MonoBehaviour
 
 	private void Update()
 	{
-		//if ( gameController.IsGameStart == false ) return;
+		if ( gameController.IsGameStart == false ) return;
 
 		if ( Input.GetMouseButtonDown(0) )
 		{
@@ -59,7 +59,7 @@ public class MouseDragController : MonoBehaviour
 				}
 
 				audioSource.Play();
-				//gameController.IncreaseScore(score);
+				gameController.IncreaseScore(score);
 			}
 			else
 			{
