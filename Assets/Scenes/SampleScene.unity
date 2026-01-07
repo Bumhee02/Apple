@@ -1254,7 +1254,7 @@ MonoBehaviour:
   textInGameScore: {fileID: 828491261}
   textGameOverScore: {fileID: 1126836365}
   timeGauge: {fileID: 1635562729}
-  maxTime: 1e+24
+  maxTime: 120
 --- !u!4 &837856671
 Transform:
   m_ObjectHideFlags: 0
