@@ -1254,7 +1254,7 @@ MonoBehaviour:
   textInGameScore: {fileID: 828491261}
   textGameOverScore: {fileID: 1126836365}
   timeGauge: {fileID: 1635562729}
-  maxTime: 120
+  maxTime: 1e+24
 --- !u!4 &837856671
 Transform:
   m_ObjectHideFlags: 0
@@ -1787,7 +1787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=red>Score</color>: <color=yellow>0</color>'
+  m_text: Score/n0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 54fd9d358bca82e4aac7be84b9814dfd, type: 2}
   m_sharedMaterial: {fileID: -5286422548798586303, guid: 54fd9d358bca82e4aac7be84b9814dfd, type: 2}
@@ -2380,7 +2380,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 0.5126302, b: 0, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}

@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour
 	}
 	public void GameOver()
 	{
-		textGameOverScore.text = $"SCORE\n{currentScore}";
+		textGameOverScore.text = $"<color=red>SCORE</color>\n<color=yellow>{currentScore}</color>";
 
 		panelInGame.SetActive(false);
 		panelGameOver.SetActive(true);
